@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- icon -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Travel_</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-top container-fluid px-5 py-2 bg-dark d-none d-lg-block">
+                <div class="row gx-0 align-items-center">
+                    <div class="col-lg-8  text-center text-lg-start mb-2 mb-lg-0">
+                        <div class="d-inline-flex justify-content-between align-items-center text-white">
+                            <small class="me-lg-4"><i class="ri-map-pin-fill"></i> 123 Street, New York, US</small>
+                            <small class="me-lg-4"><i class="ri-cellphone-line"></i> +123213 123132</small>
+                            <small class="me-lg-4"><i class="ri-mail-open-fill"></i> @example.com</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="social d-flex g-4">
+                            <div class="d-flex align-items-center social-item"><i class="ri-facebook-fill"></i></div>
+                            <div class="d-flex align-items-center social-item"><i class="ri-twitter-fill"></i></div>
+                            <div class="d-flex align-items-center social-item"><i class="ri-youtube-fill"></i></div>
+                            <div class="d-flex align-items-center social-item"><i class="ri-copper-diamond-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- nav -->
+            <nav class="navbar header-navs navbar-expand-lg  p-0 border-bottom ">
+                <div class="container-fluid px-lg-5 py-lg-3   ">
+                    <div class="text-white">
+                        <a class="navbar-brand text-white fs-2 fw-bold" href="#">Logo</a>
+                    </div>
+                    <div>
+                        <div class="collapse navbar-collapse header-nav" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Packages</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-primary rounded-pill text-white px-4 fw-normal" href="#">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- ==========  Banner Section  =========== -->
+        <section class="container-fluid position-relative banner py-5">
+            <div class="container py-5 hero-header ">
+                <div class="row justify-content-center">
+                    <div class="pt-lg-5  mt-lg-5 text-center">
+                        <div class="display-3 fw-bold text-white mb-3">Enjoy Your Vacation With Us</div>
+                        <p class="text-white mb-4">Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum
+                            lorem sit</p>
+                        <div class="position-relative mx-auto  w-75 form">
+                            <input type="text" class="form-control border-0 rounded-pill w-100 py-3 ps-4"
+                                placeholder="Eg: Bangladesh">
+                            <button type="button"
+                                class="btn btn-primary text-white  rounded-pill py-2 px-4 positon-absolute ">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- ==========  About Section  =========== -->
+        <section class="container px-3 px-lg-0">
+            <div class="about">
+                <div class="row  justify-content-center align-items-center g-5">
+
+                    <!-- about image -->
+                    <div class="col-lg-6 ">
+                        <div class="position-relative" style="min-height: 450px;">
+                            <img class="img-fluid h-100 position-absolute w-100" src="img/about.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- about data -->
+                    <div class="col-lg-6">
+                        <div class="header">
+                            <h6 class="section-title  text-primary">ABOUT US</h6>
+                            <h1 class="fw-bold">Welcome to <span class="text-primary">Tourist</span></h1>
+                        </div>
+                        <div class="mt-4">
+                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                                Clita erat ipsum et lorem et sit.
+
+                            </p>
+                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                                Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat
+                                amet</p>
+                        </div>
+                        <div class="mt-4 row about-icon-wrapper">
+                            <div class="col-sm-6">
+                                <p class="mb-1 fw-bold"><i class="ri-arrow-right-line text"></i> First Class Flights</p>
+                                <p class="mb-1 fw-bold"><i class="ri-arrow-right-line text"></i> 5 Star Accommodations
+                                </p>
+                                <p class="mb-1 fw-bold"><i class="ri-arrow-right-line text"></i>50 Premium City Tours
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-1 fw-bold"><i class="ri-arrow-right-line text"></i> Handpicked Hotels
+                                </p>
+                                <p class="mb-1 fw-bold"><i class="ri-arrow-right-line text"></i> Latest Model Vehicles
+                                </p>
+                                <p class="mb-1 fw-bold"><i class="ri-arrow-right-line text"></i> F24/7 Service</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <button class="btn btn-primary py-3 px-5 text-white">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- ==========  Services Section  =========== -->
+        <section class="container px-3 px-lg-0">
+            <div class="header text-center">
+                <h6 class="section-title  text-primary">SERVICES </h6>
+                <h1 class="fw-bold">Our Services</h1>
+            </div>
+
+            <div class="row mt-4 g-4 ">
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="p-4 service-item">
+                        <i class="ri-global-fill"></i>
+                        <h5 class="my-2 mb-3">WorldWide Tours</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="p-4 service-item">
+                        <i class="ri-community-line"></i>
+                        <h5 class="my-2 mb-3">Hotel Reservation </h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="p-4 service-item">
+                        <i class="ri-user-line"></i>
+                        <h5 class="my-2 mb-3">WorldWide Tours</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="p-4 service-item">
+                        <i class="ri-settings-2-line"></i>
+                        <h5 class="my-2 mb-3">WorldWide Tours</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="p-4 service-item">
+                        <i class="ri-global-fill"></i>
+                        <h5 class="my-2 mb-3">WorldWide Tours</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="p-4 service-item">
+                        <i class="ri-community-line"></i>
+                        <h5 class="my-2 mb-3">Hotel Reservation </h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="p-4 service-item">
+                        <i class="ri-user-line"></i>
+                        <h5 class="my-2 mb-3">WorldWide Tours</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="p-4 service-item">
+                        <i class="ri-settings-2-line"></i>
+                        <h5 class="my-2 mb-3">WorldWide Tours</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-- ==========  Destination Section  =========== -->
+        <section class="container px-3 px-lg-0">
+            <div class="header text-center">
+                <h6 class="section-title  text-primary">DESTINATION </h6>
+                <h1 class="fw-bold">Popular Destination </h1>
+            </div>
+
+            <div class="destination-items mt-4">
+                <div class="row g-4">
+                    <!-- destination item left -->
+                    <div class="col-lg-7">
+                        <div class="row g-3">
+                            <div class="col-lg-12  destination-item">
+                                <a href="#" class="d-block position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/destination-1.jpg" alt="">
+                                    <div
+                                        class="bg-white py-2 px-3 rounded position-absolute top-0 left-0 start-0 m-3 fw-bold">
+                                        33% OFF</div>
+                                    <div
+                                        class="bg-white  py-2 px-3 rounded position-absolute bottom-0 right-0 end-0 m-3 fw-bold">
+                                        Nepal</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6  destination-item">
+                                <a href="#" class="d-block position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/destination-2.jpg" alt="">
+                                    <div
+                                        class="bg-white py-2 px-3 rounded position-absolute top-0 left-0 start-0 m-3 fw-bold">
+                                        13% OFF</div>
+                                    <div
+                                        class="bg-white  py-2 px-3 rounded position-absolute bottom-0 right-0 end-0 m-3 fw-bold">
+                                        India</div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 destination-item">
+                                <a href="#" class="d-block position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/destination-3.jpg" alt="">
+                                    <div
+                                        class="bg-white py-2 px-3 rounded position-absolute top-0 left-0 start-0 m-3 fw-bold">
+                                        10% OFF</div>
+                                    <div
+                                        class="bg-white  py-2 px-3 rounded position-absolute bottom-0 right-0 end-0 m-3 fw-bold">
+                                        Pakistan</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- destination item right -->
+                    <div class="col-lg-5 ">
+                        <div class="destination-item position-relative" style="height: 454.5px;">
+                            <a href="#" class="d-block position-relative overflow-hidden h-100">
+                                <img class="img-fluid w-100 h-100 position-absolute" src="img/destination-4.jpg" alt="">
+                                <div
+                                    class="bg-white py-2 px-3 rounded position-absolute top-0 left-0 start-0 m-3 fw-bold">
+                                    19% OFF</div>
+                                <div
+                                    class="bg-white  py-2 px-3 rounded position-absolute bottom-0 right-0 end-0 m-3 fw-bold">
+                                    Indonesia</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ===========  PACKAGES  =========-->
+        <section class="">
+            <div class="container px-3 px-lg-0">
+                <div class="header text-center">
+                    <h6 class="section-title  text-primary">DESTINATION </h6>
+                    <h1 class="fw-bold">Popular Destination </h1>
+                </div>
+                <div class="mt-4 row g-4 ">
+
+                    <!-- single package item -->
+                    <div class="col-lg-4">
+                        <div class="package-item">
+                            <!-- package image -->
+                            <div class="package-image">
+                                <img class="img-fluid" src="img/package-1.jpg" alt="">
+                            </div>
+                            <!-- package body -->
+                            <div class="package-body shadow-sm">
+                                <div class="body-head d-flex  border-bottom ">
+                                    <div class="border-end py-2 text-center flex-fill"><i
+                                            class="ri-map-pin-2-fill"></i>Thailand</div>
+                                    <div class="border-end py-2  text-center flex-fill border-start"><i
+                                            class="ri-calendar-2-line "></i>3 days</div>
+                                    <div class="flex-fill py-2 text-center"><i class="ri-user-fill"></i>3 Person</div>
+                                </div>
+                                <div class="mt-2 d-flex flex-column justify-content-center align-items-center  p-4">
+                                    <h3>$122.00</h3>
+                                    <div class="text-primary">
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                    </div>
+                                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos
+                                    </p>
+                                    <div class="packate-buttons">
+                                        <button class=" btn btn-primary text-white rounded-start-pill">Read More
+                                        </button>
+                                        <button class="btn btn-primary text-white rounded-end-pill">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single package item -->
+                    <div class="col-lg-4">
+                        <div class="package-item">
+                            <!-- package image -->
+                            <div class="package-image">
+                                <img class="img-fluid" src="img/package-3.jpg" alt="">
+                            </div>
+                            <!-- package body -->
+                            <div class="package-body shadow-sm">
+                                <div class="body-head d-flex  border-bottom ">
+                                    <div class="border-end py-2 text-center flex-fill"><i
+                                            class="ri-map-pin-2-fill"></i>Thailand</div>
+                                    <div class="border-end py-2  text-center flex-fill border-start"><i
+                                            class="ri-calendar-2-line "></i>3 days</div>
+                                    <div class="flex-fill py-2 text-center"><i class="ri-user-fill"></i>3 Person</div>
+                                </div>
+                                <div class="mt-2 d-flex flex-column justify-content-center align-items-center  p-4">
+                                    <h3>$122.00</h3>
+                                    <div class="text-primary">
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                    </div>
+                                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos
+                                    </p>
+                                    <div class="packate-buttons">
+                                        <button class=" btn btn-primary text-white rounded-start-pill">Read More
+                                        </button>
+                                        <button class="btn btn-primary text-white rounded-end-pill">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single package item -->
+                    <div class="col-lg-4">
+                        <div class="package-item">
+                            <!-- package image -->
+                            <div class="package-image">
+                                <img class="img-fluid" src="img/package-2.jpg" alt="">
+                            </div>
+                            <!-- package body -->
+                            <div class="package-body shadow-sm">
+                                <div class="body-head d-flex  border-bottom ">
+                                    <div class="border-end py-2 text-center flex-fill"><i
+                                            class="ri-map-pin-2-fill"></i>Thailand</div>
+                                    <div class="border-end py-2  text-center flex-fill border-start"><i
+                                            class="ri-calendar-2-line "></i>3 days</div>
+                                    <div class="flex-fill py-2 text-center"><i class="ri-user-fill"></i>3 Person</div>
+                                </div>
+                                <div class="mt-2 d-flex flex-column justify-content-center align-items-center  p-4">
+                                    <h3>$122.00</h3>
+                                    <div class="text-primary">
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                    </div>
+                                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos
+                                    </p>
+                                    <div class="packate-buttons">
+                                        <button class=" btn btn-primary text-white rounded-start-pill">Read More
+                                        </button>
+                                        <button class="btn btn-primary text-white rounded-end-pill">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- ===========  Book section  =========-->
+        <section class="container px-3 px-lg-0">
+            <div class="">
+                <div class="book-tour p-4 pt-1 row g-5 align-items-center ">
+                    <div class="col-lg-6 text-white">
+                        <div>BOOKING NOW</div>
+                        <h3 class="text-white mt-2">Online Booking </h3>
+                        <p class="mt-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit. </p>
+                        <p class="mt-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                            dolore erat amet</p>
+                        <div class="mt-4">
+                            <button class="text-white p-3 px-5 border-3 btn btn-outline border">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h3 class="text-white">Book A Tour</h3>
+                        <form action="#" class="mt-4 booking-form">
+                            <input type="text" placeholder="Name*"
+                                class="form-control bg-transparent py-3 px-3 border-2">
+                            <input type="email" placeholder="Email*"
+                                class="form-control bg-transparent py-3 mt-2 px-3 border-2">
+                            <input type="text"
+                                class="form-control bg-transparent datetimepicker-input  py-3 mt-2 px-3 border-2"
+                                id="datetime" placeholder="Date &amp; Time" data-target="#date3"
+                                data-toggle="datetimepicker">
+                            <input type="text" placeholder="Destination*"
+                                class="form-control bg-transparent py-3 mt-2 px-3 border-2">
+                            <textarea name="" class="form-control bg-transparent py-3 mt-2 px-3 border-2"
+                                placeholder="Message..."></textarea>
+                            <button class="btn btn-outline border border-3 w-100 mt-3 p-3 text-white">Book Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- process -->
+        <section>
+            <div class="container px-3 px-lg-0">
+                <div class="header text-center">
+                    <h6 class="section-title  text-primary">PROCESS </h6>
+                    <h1 class="fw-bold">3 Easy Steps </h1>
+                </div>
+
+                <div class="row g-5 g-lg-3" style="margin-top: 70px;">
+
+                    <!-- single item -->
+                    <div class="col-lg-4 text-center">
+                        <div class="position-relative border  border-primary border-2 pt-5 px-4 rounded-1">
+                            <div class="d-inline-flex  align-items-center justify-content-center bg-primary position-absolute top-0 start-50  translate-middle   rounded-circle"
+                                style="width: 80px; height: 80px;">
+                                <i class="ri-global-fill fs-1 text-white"></i>
+                            </div>
+                            <h5 class="mt-2">
+                                Choose A Destination
+                            </h5>
+                            <div class="mt-3">
+                                <div class="w-25 border border-1 mx-auto"></div>
+                                <div class="w-50 border border-1 mt-2 mx-auto"></div>
+                            </div>
+                            <p class="mt-3">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat
+                                ipsum et lorem et sit sed stet lorem sit </p>
+                        </div>
+                    </div>
+                    <!-- single item -->
+                    <div class="col-lg-4 text-center">
+                        <div class="position-relative border  border-primary border-2 pt-5 px-4 rounded-1">
+                            <div class="d-inline-flex  align-items-center justify-content-center bg-primary position-absolute top-0 start-50  translate-middle   rounded-circle"
+                                style="width: 80px; height: 80px;">
+                                <span class="fs-1 text-white">$</span>
+                            </div>
+                            <h5 class="mt-2">
+                                Pay Online
+                            </h5>
+                            <div class="mt-3">
+                                <div class="w-25 border border-1 mx-auto"></div>
+                                <div class="w-50 border border-1 mt-2 mx-auto"></div>
+                            </div>
+                            <p class="mt-3">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat
+                                ipsum et lorem et sit sed stet lorem sit </p>
+                        </div>
+                    </div>
+                    <!-- single item -->
+                    <div class="col-lg-4 text-center">
+                        <div class="position-relative border  border-primary border-2 pt-5 px-4 rounded-1">
+                            <div class="d-inline-flex  align-items-center justify-content-center bg-primary position-absolute top-0 start-50  translate-middle   rounded-circle"
+                                style="width: 80px; height: 80px;">
+                                <i class="ri-flight-takeoff-line fs-1 text-white"></i>
+                            </div>
+                            <h5 class="mt-2">
+                                Fly Today
+                            </h5>
+                            <div class="mt-3">
+                                <div class="w-25 border border-1 mx-auto"></div>
+                                <div class="w-50 border border-1 mt-2 mx-auto"></div>
+                            </div>
+                            <p class="mt-3">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat
+                                ipsum et lorem et sit sed stet lorem sit </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- ==========  TRAVEL GUIDE  ========== -->
+        <section class="">
+            <div class="container px-2 px-lg-0">
+                <div class="header text-center">
+                    <h6 class="section-title  text-primary">TRAVEL GUIDE </h6>
+                    <h1 class="fw-bold">Meet Our Guide</h1>
+                </div>
+
+                <!-- guide items -->
+                <div class="row g-4 mt-4">
+
+                    <!-- single guide -->
+                    <div class="col-lg-3 guide-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="shadow-sm p-3 ">
+                            <!-- social -->
+                            <div class="social d-flex gap-3 justify-content-center" style="margin-top: -29px;">
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i
+                                        class="ri-facebook-fill fs-5 text-primary"></i></div>
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i class="ri-twitter-fill fs-5 text-primary"></i>
+                                </div>
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i
+                                        class="ri-instagram-line fs-5 text-primary"></i></div>
+                            </div>
+                            <div class="mt-5 text-center">
+                                <h5 class="pt-2">Jos Mary</h5>
+                                <p style="margin-top: -6px;">Designation</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- single guide -->
+                    <div class="col-lg-3 guide-item">
+                        <div class="overflow-hidden img-wrapper">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="shadow-sm p-3">
+                            <!-- social -->
+                            <div class="social d-flex gap-3 social justify-content-center" style="margin-top: -29px;">
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i
+                                        class="ri-facebook-fill fs-5 text-primary"></i></div>
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i class="ri-twitter-fill fs-5 text-primary"></i>
+                                </div>
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i
+                                        class="ri-instagram-line fs-5 text-primary"></i></div>
+                            </div>
+                            <div class="mt-5 text-center">
+                                <h5 class="pt-2">RI Uoss</h5>
+                                <p style="margin-top: -6px;">Designation</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- single guide -->
+                    <div class="col-lg-3 guide-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="shadow-sm p-3">
+                            <!-- social -->
+                            <div class="social d-flex gap-3 justify-content-center" style="margin-top: -29px;">
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i
+                                        class="ri-facebook-fill fs-5 text-primary"></i></div>
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i class="ri-twitter-fill fs-5 text-primary"></i>
+                                </div>
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i
+                                        class="ri-instagram-line fs-5 text-primary"></i></div>
+                            </div>
+                            <div class="mt-5 text-center">
+                                <h5 class="pt-2">Justin Bravo</h5>
+                                <p style="margin-top: -6px;">Designation</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- single guide -->
+                    <div class="col-lg-3 guide-item">
+                        <div class="overflow-hidden ">
+                            <img class="img-fluid z-1" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="shadow-sm p-3 z-2">
+                            <!-- social -->
+                            <div class="social d-flex gap-3 justify-content-center" style="margin-top: -29px;">
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i
+                                        class="ri-facebook-fill fs-5 text-primary"></i></div>
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i class="ri-twitter-fill fs-5 text-primary"></i>
+                                </div>
+                                <div class="bg-white border-bottom border-primary d-flex align-items-center justify-content-center rounded-circle "
+                                    style="height: 45px; width: 45px;"><i
+                                        class="ri-instagram-line fs-5 text-primary"></i></div>
+                            </div>
+                            <div class="mt-5 text-center">
+                                <h5 class="pt-2">Lorem KD</h5>
+                                <p style="margin-top: -6px;">Designation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- TESTIMONIAL -->
+        <section>
+            <div class="container px-sm-3 p-0">
+                <div class="header text-center">
+                    <h6 class="section-title  text-primary">TRAVEL GUIDE </h6>
+                    <h1 class="fw-bold">Meet Our Guide</h1>
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper position-relative mt-4 testimonial-carosul">
+                        <div class="testimonial-item shadow border swiper-slide p-3 text-center">
+                            <img src="img/testimonial-1.jpg" class="bg-white img-fluid ounded-circle p-1 border-2"
+                                alt="">
+                            <h5>Jon DO</h5>
+                            <p>Dhaka Bangladesh</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem nostrum obcaecati
+                                similique?</p>
+                        </div>
+                        <div class="testimonial-item shadow   swiper-slide p-3 text-center">
+                            <img src="img/testimonial-2.jpg" class="img-fluid bg-white rounded-circle p-1 border-2"
+                                alt="">
+                            <h5>Jon DO</h5>
+                            <p>Dhaka Bangladesh</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem nostrum obcaecati
+                                similique?</p>
+                        </div>
+                        <div class="testimonial-item  shadow  swiper-slide  p-3 text-center">
+                            <img src="img/testimonial-3.jpg" class="img-fluid bg-white rounded-circle p-1 border-2"
+                                alt="">
+                            <h5>Jon DO</h5>
+                            <p>Dhaka Bangladesh</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem nostrum obcaecati
+                                similique?</p>
+                        </div>
+                        <div class="testimonial-item  shadow swiper-slide  p-3 text-center">
+                            <img src="img/testimonial-4.jpg" class="img-fluid bg-white rounded-circle p-1 border-2"
+                                alt="">
+                            <h5>Jon DO</h5>
+                            <p>Dhaka Bangladesh</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem nostrum obcaecati
+                                similique?</p>
+                        </div>
+                        <div class="testimonial-item   shadow swiper-slide  p-3 text-center">
+                            <img src="img/testimonial-3.jpg" class="img-fluid bg-white rounded-circle p-1 border-2"
+                                alt="">
+                            <h5>Jon DO</h5>
+                            <p>Dhaka Bangladesh</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem nostrum obcaecati
+                                similique?</p>
+                        </div>
+                        <div class="testimonial-item shadow swiper-slide  p-3 text-center">
+                            <img src="img/testimonial-2.jpg" class="img-fluid bg-white rounded-circle p-1 border-2"
+                                alt="">
+                            <h5>Jon DO</h5>
+                            <p>Dhaka Bangladesh</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem nostrum obcaecati
+                                similique?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="bg-dark py-5 pb-3 text-white">
+            <div class="container p-lg-0 px-3">
+                <div class="row g-4">
+                    <div class="col-lg-3">
+                        <div>
+                            <h3 class="text-white">Company</h3>
+                            <div class="mt-3">
+                                <div class="mt-1 compani-item"><i class="ri-arrow-right-s-line"></i> About us</div>
+                                <div class="mt-1 compani-item"><i class="ri-arrow-right-s-line"></i> Contact us</div>
+                                <div class="mt-1 compani-item"><i class="ri-arrow-right-s-line"></i> Privacy Policy
+                                </div>
+                                <div class="mt-1 compani-item"><i class="ri-arrow-right-s-line"></i> Terms Condition
+                                </div>
+                                <div class="mt-1 compani-item"><i class="ri-arrow-right-s-line"></i> Faqs and Help</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <h3 class="text-white">Contact</h3>
+                            <div class="mt-3">
+                                <p class="d-flex gap-2"><i class="ri-map-pin-fill"></i> 23 Street, New York, USA</p>
+                                <p class="d-flex gap-2"><i class="ri-phone-fill"></i>++2342342342323</p>
+                                <p class="d-flex gap-2"><i class="ri-mail-fill"></i> @example.com</p>
+                            </div>
+                        </div>
+                        <div class="social d-flex g-4">
+                            <div class="d-flex align-items-center social-item"><i class="ri-facebook-fill"></i></div>
+                            <div class="d-flex align-items-center social-item"><i class="ri-twitter-fill"></i></div>
+                            <div class="d-flex align-items-center social-item"><i class="ri-youtube-fill"></i></div>
+                            <div class="d-flex align-items-center social-item"><i class="ri-copper-diamond-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="img-glarry">
+                            <h3 class="text-white">Gallery</h3>
+                            <div class="mt-3 row g-2">
+                                <div class="col-4"><img class="img-fluid" src="img/package-1.jpg" alt=""></div>
+                                <div class="col-4"><img class="img-fluid" src="img/package-1.jpg" alt=""></div>
+                                <div class="col-4"><img class="img-fluid" src="img/package-2.jpg" alt=""></div>
+                                <div class="col-4"><img class="img-fluid" src="img/package-2.jpg" alt=""></div>
+                                <div class="col-4"><img class="img-fluid" src="img/package-3.jpg" alt=""></div>
+                                <div class="col-4"><img class="img-fluid" src="img/destination-2.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4 mb-lg-0">
+                        <div>
+                            <h3 class="text-white">Newsletter</h3>
+                            <p class="mt-3">
+                                Dolor amet sit justo amet elitr clita ipsum elitr est.
+                            </p>
+                        </div>
+                        <div class="position-relative " style="max-width: 400px;">
+                            <input class="form-control p-2" placeholder="Email.." type="email">
+                            <button
+                                class="btn btn-primary position-absolute text-white start-0 top-100  mt-2 py-2 px-3">Sign
+                                Up</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- footer bottom -->
+                <div class="mt-5">
+                    <hr>
+                    <div class="d-flex flex-column flex-lg-row gap-2 justify-content-between footer-bottom ">
+                        <div>
+                            <small>&copy; <a href="#"> Your Site Name</a> ,All Right Reverse. Designed By <a
+                                    href="https:facebook.com/tanvir321110">tanvir ahmed</a></small>
+                        </div>
+                        <div class="footer-bottom-right">
+                            <a href="#">Home</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- owl -->
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
