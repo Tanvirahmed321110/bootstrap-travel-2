@@ -17,6 +17,8 @@
             href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <!-- owl -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Travel_</title>
     </head>
@@ -289,7 +291,7 @@
 
                     <!-- destination item right -->
                     <div class="col-lg-5 ">
-                        <div class="destination-item position-relative" style="height: 454.5px;">
+                        <div class="destination-item position-relative" style="height: 475px;">
                             <a href="#" class="d-block position-relative overflow-hidden h-100">
                                 <img class="img-fluid w-100 h-100 position-absolute" src="img/destination-4.jpg" alt="">
                                 <div
@@ -305,6 +307,23 @@
             </div>
         </section>
 
+        
+        <div class="container px-3 px-lg-0">
+            
+            
+            <div class="area w-100 mt-5">
+                <div class="owl-carousel">
+                    <div class="item"><img src="img/destination-1.jpg" alt=""> </div>
+                    <div class="item"><img src="img/destination-2.jpg" alt=""> </div>
+                    <div class="item"><img src="img/destination-1.jpg" alt=""> </div>
+                    <div class="item"><img src="img/destination-3.jpg" alt=""> </div>
+                    <div class="item"><img src="img/destination-2.jpg" alt=""> </div>
+                    <div class="item"><img src="img/destination-1.jpg" alt=""> </div>
+                    <div class="item"><img src="img/destination-1.jpg" alt=""> </div>
+                  </div>
+                    
+            </div>
+        </div>
 
         <!-- ===========  PACKAGES  =========-->
         <section class="">
@@ -432,7 +451,7 @@
 
         <!-- ===========  Book section  =========-->
         <section class="container px-3 px-lg-0">
-            <div class="">
+            <div class="px-4">
                 <div class="book-tour p-4 pt-1 row g-5 align-items-center ">
                     <div class="col-lg-6 text-white">
                         <div>BOOKING NOW</div>
@@ -727,7 +746,7 @@
 
         <footer class="bg-dark py-5 pb-3 text-white">
             <div class="container p-lg-0 px-3">
-                <div class="row g-4">
+                <div class="row g-5 g-lg-4">
                     <div class="col-lg-3">
                         <div>
                             <h3 class="text-white">Company</h3>
@@ -816,7 +835,16 @@
 
         <!-- Jquery -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- owl carousel -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
         <script src="js/app.js"></script>
+        <script>
+              
+              $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+        </script>
     </body>
 
 </html>
